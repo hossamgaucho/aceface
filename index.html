@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>aceface by Hossam</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+  <body>
+    <h1>aceface</h1>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer bounds="tight" enable-pan src="aceface1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster=".webp" shadow-intensity="2" shadow-softness="5" camera-orbit="48.64deg 78.47deg auto" min-camera-orbit="auto auto 7.351m" autoplay environment-image="abandoned_factory_canteen_02_1k.hdr">
+    </model-viewer>  
+    <p>this is aceface 3D model for the web [demo]</p>
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </body>
+</html>
